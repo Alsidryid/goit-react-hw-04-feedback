@@ -1,0 +1,23 @@
+.btn{
+    padding: 20px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(60, 219, 166);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.btn:not(:last-child){
+    margin-right: 30px;
+}
+.btn:nth-child(2n+1){
+    background-color: rgb(191, 194, 53);
+}
+.btn:nth-child(3n+1) {
+    background-color: rgb(236, 74, 74);
+}
+.btn:focus, .btn:hover{
+    color:rgb(48, 47, 139);
+}
